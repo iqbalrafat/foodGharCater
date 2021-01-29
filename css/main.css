@@ -35,3 +35,7 @@ body{
 .height-90{
   min-height:calc(100vh-94px);
 }
+.banner h1{
+  border-top: 6px dotted #c9c1ac;
+  border-bottom: 6px dotted #c9c1ac;
+}
