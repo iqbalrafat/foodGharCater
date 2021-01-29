@@ -31,6 +31,7 @@ body{
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  position: relative;
 }
 .height-90{
   min-height:calc(100vh-94px);
@@ -38,4 +39,15 @@ body{
 .banner h1{
   border-top: 6px dotted #c9c1ac;
   border-bottom: 6px dotted #c9c1ac;
+}
+.main-btn{
+  color: #d3325f;
+  font-size:2rem;
+  border: 2px solid #d3325f;
+  transition: all 1s ease-in-out;
+}
+.main-btn:hover{
+  color: #242424;
+  border: 2px solid #c9c1ac;
+  background: #c9c1ac;
 }
