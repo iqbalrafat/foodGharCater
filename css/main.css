@@ -39,7 +39,27 @@ body{
 .banner h1{
   border-top: 6px dotted #c9c1ac;
   border-bottom: 6px dotted #c9c1ac;
+  /* this is the animation name we defined below */
+  animation: fromLeft;   
+  animation-duration: 4s;
+
 }
+/* Adding Animation */
+@keyframes fromLeft{
+  0%{
+    Transform: translateX(-100px);
+    opacity: 0;
+
+  }
+  50%{
+    Transform: translateX(30px);
+  }
+  100%{
+    Transform: translateX(0);
+    opacity: 1;
+  }
+}
+
 .main-btn{
   color: #d3325f;
   font-size:2rem;
