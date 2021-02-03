@@ -42,6 +42,9 @@ body{
   /* this is the animation name we defined below */
   animation: fromLeft;   
   animation-duration: 4s;
+  animation-delay: 2s;
+  opacity: 0;
+  animation-fill-mode: forwards;
 
 }
 /* Adding Animation */
@@ -49,7 +52,6 @@ body{
   0%{
     Transform: translateX(-100px);
     opacity: 0;
-
   }
   50%{
     Transform: translateX(30px);
@@ -59,7 +61,28 @@ body{
     opacity: 1;
   }
 }
-
+/* Adding animation for Main Button. We start by giving the name of animation */
+.food-btn{
+  animation: fromRight;
+  animation-duration: 4s;
+  animation-delay: 2s;
+  opacity: 0;
+  animation-fill-mode: forwards;
+}
+/* adding animation */
+@keyframes fromRight{
+  0%{
+    Transform: translateX(100px);
+    opacity: 0;
+  }
+  50%{
+    Transform: translateX(-30px);
+  }
+  100%{
+    Transform: translateX(0);
+    opacity: 1;
+  }
+}
 .main-btn{
   color: #d3325f;
   font-size:2rem;
