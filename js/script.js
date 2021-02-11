@@ -8,7 +8,10 @@ $(document).ready(function(){
   //maginific popup
   $('.parent-container').magnificPopup({
     delegate:'a',//child items selector, by clicking on it popup will open the
-    type:'image'
+    type:'image',
+    gallery:{
+      enabled: true
+    }
     //other options
   });
  
