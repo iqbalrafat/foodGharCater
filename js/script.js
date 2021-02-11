@@ -5,5 +5,11 @@ $(document).ready(function(){
     dropRadius: 25,  
     perturbance: 0.01,
   });
+  //maginific popup
+  $('.parent-container').magnificPopup({
+    delegate:'a',//child items selector, by clicking on it popup will open the
+    type:'image'
+    //other options
+  });
  
-})
+});
