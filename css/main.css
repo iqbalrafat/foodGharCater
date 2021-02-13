@@ -8,6 +8,9 @@
 body{
   font-family: 'Mr Dafoe', cursive;
   color:#c9c1ac;
+  /* we will apply BG Image that will be in center, cover the whole page and will not move
+   finally not repeat mean one image will not show couple of time*/
+  background:url(../img/bod_BG_Image.jpg)center/cover fixed no-repeat;
 }
 .primary-color{
   color:#d3325f;
@@ -122,3 +125,4 @@ body{
     transform: translateY(-10px) /* -10 mean button will animate up */
   }
 }
+/*########### Menu Items ############ */
