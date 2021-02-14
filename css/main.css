@@ -151,8 +151,18 @@ body{
   border-top:3px solid #d3325f;
   border-bottom:3px solid #d3325f;
   transition: all 2s ease;
-  /* opacity:0;  */
+  opacity:0; 
 }
 .item-container:hover .item-link{
   opacity:1;
+}
+.item-link:hover{
+  color:#C9c1ac;
+  border: 3px solid #C9c1ac;
+  background: #c9c1ac;
+  color:#242424;
+}
+.item-container:hover{
+  outline:10px solid #d3325f;
+  outline-offset:0.8rem;
 }
