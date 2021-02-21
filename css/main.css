@@ -235,3 +235,12 @@ opacity:0.5;
 .review-img{
   width: 150px;
 }
+/*####### team ####*/
+.team-icon a{
+  color:#3b5998;
+  transition:all 2s ease-in-out;
+}
+.team-icons a:hover{
+  color:#242424;
+  transform:translateY(-5px);
+}
