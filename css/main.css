@@ -224,8 +224,6 @@ body{
   z-index:30;
   opacity: 1;
 }
-.about-image:hover .about-image:not(:hover){
-
+.about-pictures:hover .about-image:not(:hover){
 opacity:0.5;
-
 }
