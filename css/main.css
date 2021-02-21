@@ -227,3 +227,7 @@ body{
 .about-pictures:hover .about-image:not(:hover){
 opacity:0.5;
 }
+/*####### review ###*/
+.review-img{
+  width: 150px;
+}
