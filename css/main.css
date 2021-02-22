@@ -280,3 +280,14 @@ opacity:0.5;
   color:#d3325f;
   border-color:#c9c1ac;
 }
+/*##### Footer #### */
+#back-to-top{
+  background:#c9c1ac;
+  border-radius:10px;
+  display: inline-block;
+}
+.scrollTop{
+  position:fixed;  /* it means if we don't scroll it will remain fixed*/
+  bottom:70px;
+  right:10px;
+}
