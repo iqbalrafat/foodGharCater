@@ -244,3 +244,39 @@ opacity:0.5;
   color:#242424;
   transform:translateY(-5px);
 }
+/* ##### Contact ##### */
+.height-60{
+  min-height: 60vh;
+}
+#contact .card {
+  background:rgba(0,0,0,0.5);
+  transition: all 2s ease;
+} 
+#contact .card:hover{
+  background: rgba(0,0,0,0.8);
+}
+#contact .card-header{
+  color: #d3325f;
+}
+#contact .input-group-text{
+  background: #d3325f;
+  border-color:#d3325f;
+  color: #242424;
+}
+#contact .card input{
+  color: #606060;
+}
+#contact .card input::placeholder{
+  color:#606060;
+}
+.contact-btn{
+  color:#d3325f;
+  border-color:#d3325f;
+  background:transparent;
+  transition: all 2s ease-in-out;
+}
+.contact-btn:hover{
+  background:#c9c1ac;
+  color:#d3325f;
+  border-color:#c9c1ac;
+}
