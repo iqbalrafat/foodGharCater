@@ -125,6 +125,22 @@ body{
     transform: translateY(-10px) /* -10 mean button will animate up */
   }
 }
+/* ###### navbar ###### */
+.navbar{
+background:#c9c1ac;
+padding: 20px 20px; /* first is for top and bottom and second for right and left */
+transition:all 1s ease;
+}
+.navbar-background{
+  padding: 5px 20px; /* this class will be applied by JS and override the .navbar class*/
+}
+.navbar-brand{ 
+  font-size: 30px;
+  transition: all 1s ease;
+}
+.navbar-brand:hover{ 
+ color:#242424;
+}
 /*########### Menu Items ############ */
 .item-container{
   position: relative;
