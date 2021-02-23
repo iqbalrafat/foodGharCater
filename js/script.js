@@ -1,3 +1,14 @@
+$('.navbar-toggler').click(()=>{
+  $('.navbar-toggler').toggleClass('change')
+})
+
+
+
+
+
+
+
+
 $(document).ready(function(){
 //  added ripple effect
 //we use header where we like to effect of ripple. radius in pixel
